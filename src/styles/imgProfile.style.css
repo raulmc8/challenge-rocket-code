@@ -1,0 +1,7 @@
+.bg-img img {
+    background-color: rgba(252, 119, 212, 0.8);
+    padding: 3px;
+    width: 4rem;
+    height: 5rem;
+    border-radius: 30%;
+}

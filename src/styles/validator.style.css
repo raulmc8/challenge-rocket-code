@@ -1,0 +1,50 @@
+.validator-chat {
+    width: 95%;
+    border-radius: 2%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.validator-container {
+    background-color: #D5D5D5;
+    width: 72%;
+    border-radius: 0.2rem;
+    padding: 1rem;
+}
+
+.btn-iniciar {
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button {
+    width: 80%;
+    height: 3rem;
+    border: 0;
+    background-color: #fc3470;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.2rem;
+}
+.data-chat {
+    width: 100%;
+}
+.data-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fc4fc8;
+    padding: 1rem;
+    border-radius: 0.2rem;
+}
+div.data-container p {
+    font-size: small;
+}
+@media (min-width: 768px) {
+    div.data-container p {
+        font-size: large;
+    }
+    .validator-container {
+        width: 88%;
+    }
+}
